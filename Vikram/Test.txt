@@ -13,9 +13,6 @@ DevOps: Docker + Netlify/Vercel + Render/Railway
 Localization: i18next + Django gettext
 
 
-
-I can't copy directly to your clipboard, but here’s the complete tech stack. You can **manually copy** it from below:
-
 ---
 
 ### ✅ **Full Tech Stack for Digital Chit Fund App (India-focused)**
