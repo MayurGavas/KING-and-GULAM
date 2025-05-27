@@ -1,0 +1,100 @@
+Frontend: React
+
+Backend: Django + Django REST Framework
+
+Database: PostgreSQL
+
+Authentication: JWT (with DRF)
+
+Payments: Razorpay / Paytm APIs
+
+DevOps: Docker + Netlify/Vercel + Render/Railway
+
+Localization: i18next + Django gettext
+
+
+
+I can't copy directly to your clipboard, but here’s the complete tech stack. You can **manually copy** it from below:
+
+---
+
+### ✅ **Full Tech Stack for Digital Chit Fund App (India-focused)**
+
+**Frontend: React** | **Backend: Django** | **Database: PostgreSQL**
+
+---
+
+### 💻 **Frontend (React)**
+
+* React.js – main framework
+* React Router – routing/navigation
+* Axios – API communication
+* Tailwind CSS (or Bootstrap) – styling
+* i18next – localization for Indian languages
+* PWA support *(optional)*
+
+---
+
+### 🐍 **Backend (Python + Django)**
+
+* Django – primary backend framework
+* Django REST Framework (DRF) – API creation
+* Django ORM – for interacting with DB
+* SimpleJWT or Djoser – for authentication (JWT tokens)
+* Celery + Redis *(optional)* – for background jobs like reminders or payout retries
+
+---
+
+### 💾 **Database**
+
+* PostgreSQL – recommended (production-ready, secure)
+* SQLite – for local development
+
+---
+
+### 🔐 **Authentication & Security**
+
+* JWT via DRF
+* CSRF protection (built-in)
+* django-cors-headers – to enable frontend-backend communication
+* Password hashing with Django’s secure auth system
+
+---
+
+### 💰 **Payments**
+
+* Razorpay or Paytm APIs
+* Django webhooks for transaction verification
+* Transaction logging in models
+
+---
+
+### 🌐 **Localization**
+
+* Frontend: i18next
+* Backend: Django’s `gettext` system
+* Currency formatting: `Intl.NumberFormat` (JS) or Babel (Python)
+
+---
+
+### 🛠 **DevOps & Deployment**
+
+* Docker – for local development
+* Gunicorn + Nginx – for production Django
+* Netlify or Vercel – frontend hosting
+* Render / Railway / DigitalOcean – backend hosting
+* MongoDB Atlas *(optional)* – if needed for logging or flexible data
+
+---
+
+### 🧾 **Admin Panel**
+
+* Built-in Django admin (customizable)
+* View and manage:
+
+  * Users
+  * Chit groups
+  * Payment logs
+
+---
+
