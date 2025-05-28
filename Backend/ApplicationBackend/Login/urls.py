@@ -1,6 +1,7 @@
 from django.urls import include, path
-from . import views
+from .views import CreateUserAccount, create_user_form
 
-Urlpatterns = [
-    path('add/', views.UserAccount.create_account, name='create_user')
+urlpatterns = [
+    path('add/', CreateUserAccount.as_view(), name='create_user'),
+    path('register/', create_user_form, name='create_user_form')
 ]
