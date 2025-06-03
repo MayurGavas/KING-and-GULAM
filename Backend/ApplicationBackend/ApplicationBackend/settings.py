@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-znt4-%qn$39spx$y&dltu10kb6h&j*mgycw558@px7filb85i-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['192.168.31.155','Localhost']
+# '192.168.31.155','Localhost'
 # Application definition
 
 INSTALLED_APPS = [
@@ -73,13 +73,14 @@ WSGI_APPLICATION = 'ApplicationBackend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kingsapp',
-        'USER': 'kingsuser',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost',
+        'NAME': 'webking',
+        'USER': 'webking',
+        'PASSWORD': 'kingadmin',
+        'HOST': 'webkingdatabase.claqym6qinvz.ap-south-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
