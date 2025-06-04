@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'ApplicationBackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'webking',
-        'USER': 'webking',
-        'PASSWORD': 'kingadmin',
-        'HOST': 'webkingdatabase.claqym6qinvz.ap-south-1.rds.amazonaws.com',
+        'NAME': 'webkingstar',
+        'USER': 'webkingstar',
+        'PASSWORD': 'webkingadmin',
+        'HOST': 'webking.claqym6qinvz.ap-south-1.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
